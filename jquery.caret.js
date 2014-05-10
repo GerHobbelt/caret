@@ -1,7 +1,7 @@
 (function($) {
   $.fn.caret = function(pos) {
     var target = this[0];
-	var isContentEditable = target.contentEditable === 'true';
+    var isContentEditable = target.contentEditable === 'true';
     //get
     if (arguments.length == 0) {
       //HTML5
@@ -67,4 +67,4 @@
       target.focus();
     return pos;
   }
-})(jQuery)
+})(jQuery);
